@@ -1,0 +1,20 @@
+version: '3.1'
+services:
+  app:
+    container_name: nokia-meal-app
+    image: nokia-meal-app
+    build: ./
+    ports:
+      - "8080:8080"
+    depends_on:
+      - postgresqldb
+  postgresqldb:
+    container_name: postgresqldb
+    image: postgres
+    ports:
+    - "5434:5432"
+    environment:
+      - POSTGRES_PASSWORD=password
+      - POSTGRES_USERNAME=postgres
+      - POSTGRES_DB=postgres
+
