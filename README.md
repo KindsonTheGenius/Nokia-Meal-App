@@ -4,7 +4,8 @@ This is a Nokia Project for the role of DevOps Engineer in Budapest
 # Note
 I have the configurations, created a cluster but had some challenges getting the web-app communicate with postgres. Since I promise to submit this task today, I'm sending a working solution but you you'll have to run on local docker.
 I've included all my configuration files.
-If ok by you I could fix the issue and provide and updated version of the task. But for now, I'm submiting what I have. Details are given below.
+So for now, I'm submiting what I have. You could check my configuration file (configmap, credentials and deployment).
+Details are given below.
 
 
 # Requirements
